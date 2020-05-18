@@ -1,0 +1,13 @@
+print('exercicio 004')
+print('faça um programa que leia algo pelo teclado e mostre na tela seu Tipo Primitivos e todas informaçoes sobre ele') 
+
+print('Resolvido exe 003')
+n=input('digite algo') 
+print(type(n)) 
+print(n.isnumeric)
+print(n.isalpha)
+print(n.isalphanum)
+print(n.isupper)
+print(n.islower)
+
+
