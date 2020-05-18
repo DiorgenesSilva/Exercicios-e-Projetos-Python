@@ -1,6 +1,6 @@
 Exercicio 001
 print('Crie um script Python que mostre o nome de uma pessoa e mostre uma mensagem de boas vindas') 
 
-#Resolvido exe 001 
+print('Resolvido exe 001') 
 nome=input('Qual é o seu nome?')
 print('Ola é um prazer te conhecer,nome')
