@@ -1,6 +1,6 @@
 Exercicio 002 
 print('Crie um Script Python que leia o dia,o mes eo ano de nascimento de uma pessoa e mostre uma mensagem com a data formatada'Dca:Saida formatada (.format)')
-
+ 
 #Resolvido exe 002 
 dia=11
 mes=('Janeiro')
