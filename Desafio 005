@@ -1,0 +1,6 @@
+#Exercicio  005 Aula 7
+print('Faça um programa que leia u, numero inteiro')
+print('E mostre na tela o seu sucessor e o seu antecessor')
+n=int(input('Qual é o numero?'))
+print(' o numero é {} o seu antecessor é {} eo sucessor {}'.format(n,(n-1),(n+1)))
+      
