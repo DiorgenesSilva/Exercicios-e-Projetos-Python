@@ -11,5 +11,5 @@ print('Somente maiusculas?',n.isupper())
 print('Somente minusculas?',n.islower())
 print('Esta capitalizada?', n.isstyle())
  
- 
+  
     
