@@ -1,0 +1,17 @@
+#Exercicio 008 aula 07
+print('Escreva um programa que leia um valor em metros')
+print('e o exiba convertido em centimetros e milimettoa')
+m=float(input('Quantos metros ?'))
+c=(m*100)
+ml=(m*1000)
+print(' {} metros tem {} centimetros e {} milimetros'.format(m,c,ml))
+
+#Outros Exemplos
+"""
+km
+hm
+dam
+mt
+cm
+mm
+"""
