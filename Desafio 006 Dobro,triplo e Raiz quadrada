@@ -1,0 +1,7 @@
+
+print('Crie um programa que leia um numero o seu dobro,seu triplo ea sua raiz quadrada')
+n=int(input('Qual é o numero?'))
+d=(n*2)
+t=(n*3)
+r=(n**(1/2))
+print('O numero é {} o seu Dobro {} o seu triplo {} ea sua raiz{:.2f}'.format(n,d,t,r))
