@@ -1,0 +1,6 @@
+print('Desenvolva um programa que leia as duas notas de um aluno')
+print('Calcule e mostre a sua média')
+nota1=float(input('Qual a nota?'))
+nota2=float(input('Qual a nota?'))
+media=(nota1+nota2)/2
+print('O resultado media final do aluno é {}'.format(media))
