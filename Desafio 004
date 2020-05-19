@@ -1,16 +1,15 @@
  print('exercicio 004')
-print('faça um programa que leia algo pelo teclado e mostre na tela seu Tipo Primitivos e todas informaçoes sobre ele') 
-
-print('Resolvido exe 003')
-n=input('digite algo') 
-print('o tipo primitivo é',iype(n)) )
-print('É somente um numero?', n.isnumeric)
-print('É somente letras?', n.isalpha)
-print('É Alfanumerico?',  n.isalphanum)
-print('Esta somente em maiusculas',n.isupper)
-print('Esta somente em mibusculas?',.islower)
-print('Somente tem espaços?',n.ispace)
-
-
+print('Faça um programa que leia algo pelo teclado')
+print('E mostre na tela o seu tipo primitivo e todas informaçoes sobre ele')
+n=input('Digite Algo?')
+print('Este tipo primitivo a classe é ?',type(n))
+print('So tem espaços?', n.isspace())
+print('É somente um numero?', n.isnumeric())
+print('É Alfabetico?', n.isalpha())
+print('É alfanumerico?', n.isalphanum())
+print('Somente maiusculas?',n.isupper())
+print('Somente minusculas?',n.islower())
+print('Esta capitalizada?', n.isstyle())
+ 
  
     
