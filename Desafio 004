@@ -10,4 +10,4 @@ print(n.isalphanum)
 print(n.isupper)
 print(n.islower)
  
-   
+    
