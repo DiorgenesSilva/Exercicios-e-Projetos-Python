@@ -1,0 +1,5 @@
+Exercicio 001 Olá,Mundo!  
+print('Crie um script Python que mostre o  natela Olá,Mundo!')
+  
+#Resolvido
+print('Ol,Mundo!')
