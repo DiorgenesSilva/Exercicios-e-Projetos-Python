@@ -1,9 +1,9 @@
-#Exercicio 013 Porcentagem e Reajuste Salarial
+#Exercicio 013 Porcentagem e reajuste salarial
 print('Faça um açgoritimo que leia o salário de um funcionario')
 print('E mostre seu novo salario com 15% de desconto')
 
-#Resolvido 
-sl=float(input('O salario Atual'))
+#Resolvido
+sl=float(input('O salario Atual '))
 sn=sl+(sl*15/100)
 print(' O salario atual é {:.2f} e com reajuste será {:.2f}'.format(sl,sn))
 
