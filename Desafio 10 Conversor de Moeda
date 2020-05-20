@@ -5,4 +5,4 @@ print('Considere USS1,00 custa R$5.10')
 real=float(input('A carteir tem?'))
 dolar=(real/5.10)
 print('Com R${:.2f} voce pode comprar USS{:.2f}'.format(real,dolar))
-           
+              
