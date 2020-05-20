@@ -1,13 +1,14 @@
-#Exercicio 11  
+#Exercicio 11 aula 07
 print(' Faça um programa que leia a largura e a altura de uma parede em metros')
 print('Calcule a sua area ea quantidade de tinta necessaria para pintá la')
 print('Sabendo que cada litro de tinta,pinta uma area de 2 metros quadrados')
 
-#Resolvido 
+#Resolvido
 p1=float(input('Quanto mede a lagura da  parede?'))
 p2=float(input('Quanto mede a altura da parede ?'))
 ar=(p1*p2)
 ti=(p1*p2)/2
-print('A sua area é {:.2f} ea tinta necessaria ára pintala {:.2f}'.format(ar,ti))
-
+print('A sua paredde tem area de {}x{} e area total é {}'.format(p1,p2,ar))
+print('Sabendo que a parede mede {}mts  sera necessario {} litros de tinta'.format(ar,ti))
+ 
   
