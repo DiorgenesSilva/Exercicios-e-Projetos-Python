@@ -1,4 +1,4 @@
-print('exercicio 004')
+#exercicio 004  Classificando Tipos Primitivos
 print('Faça um programa que leia algo pelo teclado')
 print('E mostre na tela o seu tipo primitivo e todas informaçoes sobre ele')
 
