@@ -1,7 +1,7 @@
 #Exercicio 10  
 print('Crie um programa que leia quanto de dinheiro uma pessoa tem na carterira')
 print(' E mostre quantos dolares ela pode comprar')
-
+  
 #Resolvido
 print('Considere USS1,00 custa R$5.10')
 real=float(input('A carteir tem?'))
