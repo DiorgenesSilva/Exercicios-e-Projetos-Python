@@ -11,4 +11,4 @@ ti=(p1*p2)/2
 print('A sua paredde tem area de {}x{} e area total é {}'.format(p1,p2,ar))
 print('Sabendo que a parede mede {}mts  sera necessario {} litros de tinta'.format(ar,ti))
  
-  
+   
