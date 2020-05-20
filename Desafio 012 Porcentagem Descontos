@@ -1,0 +1,7 @@
+##Exercicio 012  Porcentagem e Desconto
+print('faça um programa que leia o preço de um produto e mostre seu novo preço com 5% de desconto')
+
+#Resolvido 
+pr=float(input('Valor do produto?R$'))
+pd=pr-(pr*5/100)
+print('O procuro que custava {} valor com desconto é {}'.format(pr,pd))
