@@ -1,5 +1,5 @@
-Exercicio 003 
-print('Crie um programa Python que leia dois numeros e mostre a soma entre eles. Dica:Neste exercicio sera utilizado os tipos primitivos')
+Exercicio 003 Tipos Primitivos
+print('Crie um programa Python que leia dois numeros e mostre a soma entre eles. 
     
 #Resolvido exe 003  
 n1=int(input('Digite um numero?')) 
