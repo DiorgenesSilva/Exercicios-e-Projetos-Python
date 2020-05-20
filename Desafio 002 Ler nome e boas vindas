@@ -1,4 +1,4 @@
-Print('Exercico 002 Respondendo o Usuario')
+#Exercico 002 Interagindo com o usuario
 
 print('Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas vindas para ele')
  
