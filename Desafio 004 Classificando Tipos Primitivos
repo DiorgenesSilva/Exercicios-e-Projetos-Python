@@ -1,6 +1,8 @@
- print('exercicio 004')
+print('exercicio 004')
 print('Faça um programa que leia algo pelo teclado')
 print('E mostre na tela o seu tipo primitivo e todas informaçoes sobre ele')
+
+#Resolvido
 n=input('Digite Algo?')
 print('Este tipo primitivo a classe é ?',type(n))
 print('So tem espaços?', n.isspace())
