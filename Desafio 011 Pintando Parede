@@ -10,3 +10,4 @@ ar=(p1*p2)
 ti=(p1*p2)/2
 print('A sua area é {:.2f} ea tinta necessaria ára pintala {:.2f}'.format(ar,ti))
 
+  
