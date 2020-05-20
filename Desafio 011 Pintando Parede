@@ -1,4 +1,4 @@
-#Exercicio 11 aula 07
+#Exercicio 11  
 print(' Faça um programa que leia a largura e a altura de uma parede em metros')
 print('Calcule a sua area ea quantidade de tinta necessaria para pintá la')
 print('Sabendo que cada litro de tinta,pinta uma area de 2 metros quadrados')
