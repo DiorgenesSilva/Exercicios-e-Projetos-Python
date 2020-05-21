@@ -1,0 +1,17 @@
+Exercicio 016 Quebrando um numero
+print('Crie um programa que leia um numero real qualquer pelo teclado')
+print('E mostre na tela a sua proão interira')
+
+#Resolvido biblioteca math
+import math
+n1=float(input('Qual é numero?')
+print('O numero real é {} ea sua porção inteira é {}'.format(num,mat.trunc(num))
+""" 
+#resolvido utilizando from math
+from math import trunc
+num=float(input('Qual é o numero?'))
+print('O numero real é {} ea sua porção interira é {}'.format(num,trunc(num)))
+
+#resolvido utilizando Tipos primitivos
+num=float(input('Qual é o numero?'))
+print('o numero real é {} ea sua porção interia é {}'.format(num,int(num)))
