@@ -1,0 +1,11 @@
+#Exercicio 015 Aluguel de Carros
+print('Escreva um programa que pergunte a quantidade de Km Percorridos por um carro alugado')
+print('E a quantidade de dias pelos quais foi alugado')
+print('Calcule o preço a pagar,sabendo que o carro custa R$60,00 por dia e R$0.15 por km rodado')
+
+#Resolvido
+km=float(input('Quantos Km o carro rodou?'))
+dia=int(input('Quantos dias ficou alugado ?'))
+valor=(dia*60)
+rodar=(dia*60) + (km*0.15)
+print('O valor a pagar por dia  {} e km rodados a pagar {:.2f}'.format(valor ,rodar))
