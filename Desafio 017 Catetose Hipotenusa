@@ -1,0 +1,3 @@
+#Exercicio 017 Cateto e Hipotenusa
+print('Faça um programaqueleia o comprimento do cateto oposto docateto adjacente de um triangulo retangulo')
+print('Calcule e mostre o comprimento da hipotenusa')
