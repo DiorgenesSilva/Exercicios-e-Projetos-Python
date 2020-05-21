@@ -1,3 +1,25 @@
 #Exercicio 017 Cateto e Hipotenusa
 print('Faça um programaqueleia o comprimento do cateto oposto docateto adjacente de um triangulo retangulo')
 print('Calcule e mostre o comprimento da hipotenusa')
+
+#Resolvendo com operadores aritimeticos
+ca=float(input('Quanto mede o cateto adjacente?'))
+co=float(input('Quanto mede o cateto  oposto '))
+hi=(co**2 +ca**2)**1/2
+print('A hipotenusa vai medir {:.2f}'.format(hi))
+
+#Resolvendo Com Import de  Bibliotecas
+import math
+co=float(input('Quanto mde  cateto ?'))
+ca=float(input('Quanto mede o cateto ?'))
+hi=math.hypot(co,ca)
+print('A hipotenusa vai medir {}'.format(hi))
+
+#Resolvendo Utilizando From import
+from math import hypot
+co=float(input('Quanto mede o cateto?'))
+ca=float(input('Quanto mede p cateto?'))
+hy=hypot(co,ca)
+print('A hipotenusa vai medir {}'.format(hy))
+
+
