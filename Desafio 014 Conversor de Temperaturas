@@ -1,0 +1,13 @@
+#Exercicio 014 Conversor de Temperaturas
+print('Escreva um programa que converta temperatura de  "C celsius em "F fahrenheit')
+
+#Resolvido 
+c=float(input('Qual a temperratura em Celcius?'))
+f=((9*c)/5)+32
+print('A temperatura em {0}C corresponde a {1}F'.format(c,f))
+
+""" 
+Neste exercicio pode se utilizar a ordem de precedencia ou  nao 
+"""
+
+
