@@ -11,4 +11,4 @@ a4=str(input('quarto nome'))
 lista=[a1,a2,a3,a4]
 random.shuffle(lista)
 print('A ordem de aresentação sera ?')
-print(lista)
+print(lista)  
