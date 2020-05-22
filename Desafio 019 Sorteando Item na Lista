@@ -1,0 +1,13 @@
+#Exercicio 019 Sorteando um item na lista
+print('Um professor quer sortear um dos seus alunos para apagar o quadro')
+print('Faça um programa que leia o nome deles e escrevend o nome do escolhido')
+
+#Resolvido
+import random
+a1=str(input('Primeiro Aluno'))
+a2=str(input('Segundo Aluno'))
+a3=str(input('Terceiro Aluno'))
+a4=str(input('Quarto Aluno'))
+lista= [a1,a2,a3,a4]
+escolhido=random.choice(lista)
+print('O aluno escolhido foi {}'.format(escolhido))
