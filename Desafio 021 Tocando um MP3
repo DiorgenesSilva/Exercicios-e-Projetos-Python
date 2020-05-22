@@ -1,2 +1,9 @@
-#Exercicio 021 Tocando um MP3 Python
-print(')
+#Exercicio 021 Tocar MP#
+print9'Faça um programa que abra e reproduza um audio MP3')
+
+#Resolvido
+import paygame
+paygame.init()
+paygame.mixer.music.load('nike21.mp3')
+paygame.mixer.music.play()
+paygame.event.wait()
