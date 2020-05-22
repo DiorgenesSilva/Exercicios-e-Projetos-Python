@@ -12,3 +12,4 @@ print('O Angulo de {} tem o COSSENO de {:.2f}'.format(angulo,cosseno))
 tangente=math.tan(radiand(Aangulo))
 print('O Angulo de {} tem a TANGENTE de {:.2f}'.format(angulo,tangente))
 
+  
