@@ -1,0 +1,14 @@
+#Exercicio 20 Sorteando itens na lista
+print('|O mesmoprofessor do desafio anterior quer sortear a ordem de apresentação do trabalho de seus alunos')
+print('Faça um programa que leia o nome dos quatro aluno e mostre a Ordem embaralhada')
+
+#Resolvido 
+import random
+a1=str(input('Primeiro nome'))
+a2=str(input('Segundo nome'))
+a3=str(input('terceiro nome'))
+a4=str(input('quarto nome'))
+lista=[a1,a2,a3,a4]
+random.shuffle(lista)
+print('A ordem de aresentação sera ?')
+print(lista)
