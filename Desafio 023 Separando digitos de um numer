@@ -4,22 +4,8 @@ print(""" DESAFIO 023
  E mostre na tela cada um dos digitos serapados
  Exemplo
  Digite um numero:1834
- Unidade:4
- Dezena:3
- Centena:8
- milhar:1
-""")
-#print(""" DESAFIO 023
- Faça um Programa que leia um número de 0 a 9999  
- E mostre na tela cada um dos digitos serapados
- Exemplo
- Digite um numero:1834
- Unidade:4
- Dezena:3
- Centena:8
- milhar:1
-""")
-
+ Unidade:4,Dezena:3,Centena:8,milhar:1 """)
+  
 #Resolvido
 num = int(input('Digite um numero!'))
 n = strn=str(num)
