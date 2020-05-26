@@ -6,11 +6,22 @@ Quantas letras ao todo,(sem considerar espaços
 Quantas çetras tem o primeiro nome
 """)
 
-nome=str(input('Digite o seu nome completo!')).strip()
-print('Analisando seu nome...')
-print('Seu nome em maiusculas é {}'.format(nome.upper()))
-print('Seu nome em minusculas é {}'.format(nome.lower()))
-print('seu nome tem ao todo {} letras'.format(len(nome)- nome.count(' ')))
-#print('O seu primeiro nome tem {} letras'.format(nome.find(' ')))
+#Desafio022
+print("""Crie um programa que leia o nome completode uma pessoa e mmostre
+O nome com todas as letras maiúsculas 
+O nome com todas as letras minusculas
+Quantas letras ao todo,(sem considerar espaços 
+Quantas çetras tem o primeiro nome
+""")
+
+#RESOLVIDO
+nome=str(input('Qual o seu nome Completo?')).strip()
+print(' O seu nome em maiusculas é '.format(nome.upper))
+print(' O seu nome em minusculas é {}'.format(nome.lower()))
+print(' O seu nome Capitalizado é {}'.format(nome.capitalize()))
+print(' o seu nome separado por maioneres e menores é {}'.format(nome.title()))
+print("O quantas letras tem no nome ? O total de letras  é {} ".format(len(nome)))
+print('O primeiro nome tem {} letras'.format(len(nome)-nome.count(" ")))
+#print('Seu primeiro nome tem {} letras'.format(nome.find(' ' )))
 separa=nome.split()
-print('Seu primeiro nome é {} e ele tem tantas {} letras'.format(separa[0],len(separa[0]))) 
+print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[0],len(separa[0])))
