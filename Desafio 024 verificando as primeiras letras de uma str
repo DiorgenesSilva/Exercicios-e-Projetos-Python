@@ -1,0 +1,8 @@
+print(""" 
+Crie um programa que leia o nome de uma cidade  
+E diga se ela começa ou não com  "santo"
+""")
+
+#Resolvido
+cidade=str(input('Qual é o nome da cidade?')).strip()
+print(cidade[:5].capitalize()  == 'Santo')
