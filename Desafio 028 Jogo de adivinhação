@@ -1,0 +1,17 @@
+#Jogo da adivinhação  V.1.0
+print("""Escreva um programa que faça o computador "pensar" em um numero interiro  de 0 a 9
+    E peça para o usuario tentar  descobrir qual foi o número escolhido pelo computador.
+     O programa deverá escrever na tela se o usuário Venceu ou Perdeu """)
+
+#Resolvido
+from random import randint #randint faz ele randomizar o numero inteiro
+computador =  randint(0,9) #faz o computador "gerar um numero'"
+print("-=-" * 20)
+print('Vou pensar em um numero de 0 a 9,Tente adivinhar...')
+print('-+-' * 20)
+jogador=int(input('Em que numero eu pensei ?'))
+if jogador == computador:
+    print('PARABENS!VOCÊ ME VENCEU')
+else:
+    print('GANHEI!  Eu pensei no {} e nao no {}'.format(computador , jogador))
+
