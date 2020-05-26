@@ -1,0 +1,16 @@
+#Procurando uma String dentro da outra
+print("""Crie um programa que leia o nome de uma pessoa 
+E diga se ela tem " Silva" no nome""")
+
+3Resolvido
+nome=str(input('Qual o seu nome completo ?')).strip()
+print(' O seu nome tem Silva ,{} '.format('Silva' in nome))
+
+#nome=str(input('Qual é o seu nome completo?')).strip()
+#print('O seu nome tem Silva? {}'.format('Silva' in nome.upper()))
+
+#nome=str(input('Qual é o seu nome completo?')).strip()
+#print('O seu nome tem Silva,{}'.format('Silva' in nome.lower()))
+
+#nome=str(input('Qual é o seu nome completo?')).strip()
+#print('O seu nome tem Silva,{}'.format(nome.capitalize()))
