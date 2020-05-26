@@ -1,0 +1,28 @@
+#Primeiro e ultimo nome de uma pessoa
+print("""faça um programa que leia o nome completo de uma pessoa.
+E mostrandoo em seguida o primeiro eo ultimo nome separdamente 
+Exemplo :Ana maria de Souza
+primeiro:Ana
+ultimo:Souza""")
+
+#Resolvido
+n =  str(input('Qual é o seu nome?')).strip()
+nome = n.split()
+print('É um prazer te conhecer !')
+print('O seu primeiro nome é {} '.format(nome[0]))
+print('O ultimo nome é {}'.format(nome[3]))
+
+#Resolvido   removendo uma posição
+n =  str(input('Qual é o seu nome?')).strip()
+nome = n.split()
+print('É um prazer te conhecer !')
+print('O seu primeiro nome é {} '.format(nome[0]-1))
+print('O ultimo nome é {}'.format(nome[3]-1))
+
+#Resolvido Adicionando uma posição
+n =  str(input('Qual é o seu nome?')).strip()
+nome = n.split()
+print('É um prazer te conhecer !')
+print('O seu primeiro nome é {} '.format(nome[0]+1))
+print('O ultimo nome é {}'.format(nome[3]+1))
+
