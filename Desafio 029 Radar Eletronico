@@ -1,0 +1,14 @@
+# Exercicio 029 Radar Eletronico
+print(""" Escreva um programa que leia a velocidade de  um carro .
+   Se ele ultrapassar a 80Km/hr.Mostre uma mensagem dizendo que ele foi multado
+   A multa vai custar R$7,00 para cada KM acima do limite   """)
+
+# Resolvido
+carro = float(input("Quantos KM por hora esta o carro ?"))
+if carro >  80:
+    print('MUKTADO! Voce exedeu o limite de 80kmHR ')
+    multa = (carro-80)*7
+    print('Voce deve pagar a multa de R${:.2f}'.format(multa))
+print('Tenha um bom dia! Dirija com segurança!')
+
+
