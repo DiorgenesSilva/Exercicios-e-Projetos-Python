@@ -1,0 +1,13 @@
+#Exercicio 30 Par ou Impar
+print("""Crie um programa que leia um numero interiro  
+      E mostre na tela se ele é Par ou Impar""")
+num = int(input('Qual é o seu numero?'))
+
+#Resultado
+resultado = num % 2
+print(' O resulyado foi {}'.format(resultado))
+if num == 1 :
+    print('O numero é impar ,{}'.format(num))
+else:
+    print( ' O numero {} é par'.format(num))
+
