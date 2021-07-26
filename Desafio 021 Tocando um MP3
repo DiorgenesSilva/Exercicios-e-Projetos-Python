@@ -6,4 +6,4 @@ import paygame
 paygame.init()
 paygame.mixer.music.load('nike21.mp3')
 paygame.mixer.music.play()
-paygame.event.wait()
+paygame.event.wait() 
