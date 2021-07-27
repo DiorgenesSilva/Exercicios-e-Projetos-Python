@@ -1,0 +1,71 @@
+#Cores no Terminal 
+#Cores no Terminal 
+print(""" 
+Iremos utilizar o padrao ANSI Escape Sequence 
+Padrao de normalização internalcional 
+Tudo dentro de ANSI começa com \ (contra barra) e depois vem o codigo 
+O melhor coigo que funciona para o Python é o 
+Exemplo abaixo 
+\033[;;;m
+O primeiro codigo é do comportamento  o estilo = Style
+Normal ,nerito,sublinhada 
+\033[style ... m
+O segundo codigo é o codigo do  = text 
+Voce ira identificar a cor do texto 
+\033[text;style;...m
+O terceiro codigo a cor e fundo = background 
+\033[text;text;backgoundm]
+Exemplo :: \33[0;33;44m Todo codigo de cores para Python começa com \033
+MELHORES FONTS USADAS PARA PYTHON 3 
+
+STYLE
+ none 0 = sem estilo nenhum
+ Bold 1 = negrito 
+ underline 4 = ira colocar o sublinhado 
+ Negatie 7 = Ele ira inverter 
+
+TEXT 
+30 = branco 
+31 = Vermelho 
+32 = Verde 
+33 = Amarelo 
+34 = Azul 
+35 = Roxo 
+36 = Ciano 
+37 = Cinza 
+
+BACKGROUND 
+40 = branco 
+41 = Vermelho 
+42 = Verde 
+43 = Amarelo 
+44 = azul 
+45 = Roxo 
+46 = magenta 
+47 = cinza 
+
+EXEMPLOS ABAIXO 
+LETRA BRANCO COM FUNDO VERMELHO 
+\033[0;30;41m
+LETRA AMARELA COM FUNDO AZUL SUBLINHADO 
+\033[4;33;44m 
+letra roxa com fundo amarelo em Negrito
+\033[1;35;43m
+LETRA BRANCA COM FUNDO VERDE 
+\033[30;42m
+LETRA BRANCA COM FUNDO PRETO 
+\033[m
+LETRA PRETA COM FUNDO BRANCO 
+\033[7;30m
+""") 
+#
+#na pratica 
+#
+print("Trabalhanndo com sistema de cores") 
+print("Ola , Mundo!") 
+#Cor vermelha sem fonte de estilo
+print("\033[0;31molá ,Mundo!")
+#
+
+
+
