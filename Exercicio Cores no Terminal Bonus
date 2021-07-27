@@ -1,5 +1,4 @@
 #Cores no Terminal 
-#Cores no Terminal 
 print(""" 
 Iremos utilizar o padrao ANSI Escape Sequence 
 Padrao de normalização internalcional 
@@ -45,7 +44,7 @@ BACKGROUND
 47 = cinza 
 
 EXEMPLOS ABAIXO 
-LETRA BRANCO COM FUNDO VERMELHO 
+KETRA BRANCO COM FUNDO VERMELHO 
 \033[0;30;41m
 LETRA AMARELA COM FUNDO AZUL SUBLINHADO 
 \033[4;33;44m 
@@ -62,10 +61,30 @@ LETRA PRETA COM FUNDO BRANCO
 #na pratica 
 #
 print("Trabalhanndo com sistema de cores") 
-print("Ola , Mundo!") 
-#Cor vermelha sem fonte de estilo
-print("\033[0;31molá ,Mundo!")
+print("Ola , Mundo!")
+#screva Ola Mundo com a fonte em  Vermelho
+print("\033[31mOlá ,Mundo!")
+#Escreva Ola Mundo com a fonte vermelha eo background amarelo 
+print("\033[0;31;43mOlla, Mundo!") 
+#Escreva Ola Mundo Com a Fonte Verde em Negrito com fundo Azul 
+print("\033[1;32;44mOlá ,!") 
+#Escreva Ola mundo com a Fonte roxa sublinhado  com o fundo branco 
+print("\033[4;35;40mOlá ,Mundo \033[m")  
+#Escreva Ola Mundo  Invertendo as cores das fontes com o backgound 
+print("\033[7;33;44Ola, Mundo! \033[m")
 #
+#LEIA DOIS VALORES E MOSTRE A SAIDA DELES COM CORES NO TERMINAL 
+#
+a = 3 
+b = 5 
+print("Os valores sap\033[32m{}\033[m e\033[31m{}\033[m ">format(a,b)) 
+#
+#Crie um programa que pergunte o nome do usuario e volte o resultado com  a fonte em cores 
+#
+nome = str(input("Digite um nome")) 
+print("Olá é um prazer em te conhecer {}{}{} ".format("\033[1;33;42m",nome,"033[m")) 
+
+
 
 
 
