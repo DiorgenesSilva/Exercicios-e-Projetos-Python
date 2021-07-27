@@ -1,0 +1,13 @@
+#AUMENTO MULTIPLOS
+print("""Escreva um programa que pergunte o salario de um  funcionario
+e calcule o valor do seu aumento ,
+ Para salários superiores a R$1.250 ,,calcule o aumento de 10%,
+ Para inferiores ou iguais , o aumento é de 15%""")
+salario = fkloat(input("Qual é o salario do funcionario "))
+if salario <= 1250:
+   novo = salario + (salario * 15 / 100)
+else:
+   novo = salario + (salario * 10 / 100)
+print("Quem ganhava {:.2f} agora passará a ganhar {:.2f}".format(salario,novo))
+
+   
