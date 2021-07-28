@@ -1,1 +1,25 @@
 
+#Exercício 36 – Aprovando Empréstimo
+#
+print("***APROVANDO EMPRESTIMO")
+#
+print(""" Esreva um program a para aprovar o emprestimo bancario
+para a comprade uma casa.
+Perguinte o valor da casa,
+o salario do comprador
+e em quantos meses ele vai pagar .
+A prestação mensal nao pode exeder 30% do salario
+ou entao o emprestimo sera negado """)
+#
+casa = float(input("Qual o valor da casa"))
+salario = float(input("Digite o salario "))
+anos = int(input("Digite QUANTOS  ira pagar"))
+prestação = casa / (anos *12 )
+minimo = salario * 30 / 100
+print("Para pagar uma casa no valor de R${:.2f}  em {} anos ".format(casa,anos),end='')
+print("A pretação sera de R${:.2f}".format(prestação))
+if prestação <= minimo:
+   print("Emprestmo aprovado")
+else:
+   print("Emprestimo  negado")
+
