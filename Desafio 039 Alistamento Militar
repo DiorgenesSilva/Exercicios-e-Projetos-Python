@@ -1,1 +1,56 @@
 #Alistamento Militar
+print("ALISTAMENTO MILITAR")
+#
+print(50 * "=")
+#
+print("""
+Faça um programa em Python 3
+Que leia o nascimento de um jovem
+e informe de acordo com a sua idade.
+ - Se ele ainda vai se alistar ao serviço militar
+ - Se é a hora dele se alistar
+ - Ou se ja passou da hora dele se alistar
+ Seu programa também deverá mostrar
+o tempo que falta ou quanto ja passou do prazo.
+""") 
+
+print(50 * "=")
+nasc = int(input("Digite o ano de nascimento "))
+atual = int(input("Digite o ano atual"))
+idade = (atual - nasc)
+if idade == 18:
+   print("Esta na hora de se alistar")
+
+elif idade < 18:
+   print("Ainda nao esta na hora do seu alistamento militar")
+   
+elif idade > 18:
+   print("""Ja passou da hora de voce se alistar
+            Procure uma junta Militar""")
+else:
+   print("Informao invalida")
+   
+print("MINISTERIO DA DESEFA AGRADECE")   
+
+#
+print(50 * "=")
+#
+from datetime import date
+atual = date.today().year
+nasc = int(input("Digite o ano que voce nasceu"))
+idade = atual - nasc 
+print("Quem nasceu em {} tem {} anos em {} ".format(nasc,idade,atual))
+if idade == 18:
+   print("Esta na hora de se alistar,procure uma junta IMEDIATAMENTE ")
+
+elif idade < 18:
+   saldo = 18 - idade
+   print("Ainda FALTAM {} nao esta na hora do seu alistamento militar",format(saldo))
+   
+elif idade > 18:
+   saldo = idade - 18 
+   print("Ja deveria ter se alistado {} Anos ".format(saldo))
+   print("PROCURE UMA JUNTA MILITAR")
+   
+print("MINISTERIO DA DESEFA AGRADECE")   
+
