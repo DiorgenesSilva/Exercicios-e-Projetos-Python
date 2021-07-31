@@ -11,3 +11,4 @@ else:
 print("Quem ganhava {:.2f} agora passará a ganhar {:.2f}".format(salario,novo))
 
    
+ 
