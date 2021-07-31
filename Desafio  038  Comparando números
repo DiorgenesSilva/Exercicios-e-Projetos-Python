@@ -1,1 +1,29 @@
-#Exercício 38 – Comparando números
+#Exercício 38 – Comparando números#Exercício 38 – Comparando números
+print("COMPARANDO NUMEROS")
+#
+print(50 * "=")
+#
+print("""
+ Escreva um programa em pseudo codigo
+ que leia dos numeros inteiros e compareos
+ Mostando na tela a mensagem :
+ - O Primeiro Valor é Maior
+ - O Se gundo valor é Maior
+ - Nao existe valor maior. os dois são iguais 
+""")
+#
+print(50 * "=")
+#
+v1 = int(input("Digite o primeiro  valor"))
+v2 = int(input("Digite o segundo valor "))
+if v1 > v2 :
+   print("Primeiro valor é maior")
+elif v2 > v1 :
+   print("SeGundo valor é maior")
+else:
+   print("Os Dois valores sao iguais")
+   
+print("***FIM***")    
+#
+print(50 * "=")
+
