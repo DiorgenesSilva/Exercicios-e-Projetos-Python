@@ -22,4 +22,4 @@ if prestação <= minimo:
    print("Emprestmo aprovado")
 else:
    print("Emprestimo  negado")
-
+ 
