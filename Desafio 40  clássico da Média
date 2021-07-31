@@ -1,0 +1,29 @@
+ # Aquele clássico da Média
+print("Calculando a Media com Condiçoes")
+#
+print(50 * "=")
+#
+print("""
+Crie um Programa que leia duas notas de um aluno
+E mostre uma mensagem no final .
+De acordo com a média atingida
+ - Média Abaixo de 5.0 [REPROVADO]
+ - Media Acima de 5,0 a 6,9 [RECUPERAÇÃO]
+ - media 7.0 ou superior [APROVADO]
+""")
+nota1 = float(input("Digite a primeira nota"))
+nota2 = float(input("Digite a segunda nota "))
+media = (nota1 + nota2) / 2
+if media < 5.0 :
+   print("Aluno REPROVADO ! Estude Mais")
+   
+elif media >= 5.0  < 6.9:
+   print("Aluno em RECUPERAÇÃO ! Ainda tem chance ")
+   
+elif media >+ 7.0 :
+   print("Aluno APROVADO ! PARABENS E BOAS FERIAS")
+   
+print("SECRETARIA EDUCACIONAL AGRADECE ")
+
+#
+print(50 * "=" )
