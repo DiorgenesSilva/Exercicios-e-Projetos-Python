@@ -13,3 +13,28 @@ e mostre na tela sua categoria de acordo com a idade :
  - Acima [MASTER]
  
 """)
+      
+#
+      
+print(50 * "=")
+nasc = int(input("Digite o nascimento "))
+atual = int(input("Digite o ano atual"))
+cat = atual - nasc 
+print("O Atleta nascido em {} sabendo estamos em {} entao ele tem {}".format(nasc,atual,cat)) 
+if cat <= 9 :
+   print("A sua categoria é MIRIM")
+elif cat   <= 14 :
+   print("A sua categoria é INFANTIL")
+elif cat  <= 19 :
+   print("A sua categoria é JUNIOR")
+elif cat  <= 25 :
+   print("A sua Categoria é SENIOR ")
+elif cat > 25 :
+   print("A sua categoria é MASTER") 
+   
+print("OBRIGADO POR SE INSCREVER NA FEDERAÇÃO")
+#
+print(50 * "-")
+#
+
+print("UTLIZANDO MODULOS E BIBLIOTECAS ")
