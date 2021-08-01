@@ -38,3 +38,31 @@ print(50 * "-")
 #
 
 print("UTLIZANDO MODULOS E BIBLIOTECAS ")
+
+#
+
+from datetime import date
+atual = date.today().year
+nasc = int(input("Digite a ata de nascimento"))
+idade = atual - nasc
+print("A idade do atleta é {} ".format(idade)) 
+if idade <= 9 :
+   print("A sua categoria é MIRIM")
+   
+elif idade   <= 14 :
+   print("A sua categoria é INFANTIL")
+   
+elif idade  <= 19 :
+   print("A sua categoria é JUNIOR")
+   
+elif idade <= 25:
+   print("A sua Categoria é SENIOR ")
+   
+else:
+   print("A sua categoria é MASTER") 
+print("A FEDERAÇÃO NACIONAL DE BASQUETE AGRADECE ")
+
+#
+print(50 * "=")
+#
+
