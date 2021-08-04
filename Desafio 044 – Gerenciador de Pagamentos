@@ -1,1 +1,33 @@
 
+print("LOJAS ON-LINE") 
+print("""
+GErenciador de Pagamento 
+Elabore um programa que calcule o valor a ser pago 
+por um produto considerando ?
+[1] A Vista DINHEIRO/CHEQUE :> 10% De Desconto 
+[2] A Vista no CARTAO :>5% de Desconto 
+[3] Em ate 2x no Cartao :> Preço Normal 
+[4] Em 3x OU MAIS NO CARTAO: 20% de Juros 
+""") 
+preço = float(input("Digite o valor da Compra"))
+opçao = int(input("Digite a opção de Pagamento"))
+if opçao == 1:
+    total = preço - preço * 10 / 100
+    parcelas = total / 1
+    print("Opção {} o valor é {:.2f} ".format(opçao,preço))
+    print("O valor com desconto sera {} em parcelas {}".format(total,parcelas)) 
+elif opçao == 2:
+    total = preço - preço * 5 / 100
+    parcelas = total /2
+    print(" o valor é {:.2f} em {} parcelas ".format(preço,total))
+    print("O valor com desconto sera {} em {} parcelas ".format(total,parcelas))  
+elif opçao == 3:
+    total = preço + preço * 20 / 100
+    totalparc = int(input('Quantas Parcels ?'))
+    parcela = total / totalparc
+    print("Valor é  {} as parcelas  é {:.2f} ".format(opçao,preço))
+    print("O valor com 20 % de juros sera {} e total das parcelas sao {}".format(total,totalparc))
+else:
+    print("OPÇÃO INVALIDA ! LOJA VIRTUAL AGRADECE")        
+
+ 
