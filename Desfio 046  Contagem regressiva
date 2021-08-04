@@ -1,0 +1,11 @@
+#Exercício 46 – Contagem regressiva
+print("CONTAGEM REGRESSIVA50 ") 
+#$
+print(50 * "=")
+#
+print(""""    
+Faça um programa que mostre na tela 
+Uma Contagem Regressiva para estouros
+de fogos de artifício. Indo de 10 a 0 
+Com pausa de1 segundo entre eles 
+""") 
