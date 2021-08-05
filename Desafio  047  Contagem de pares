@@ -1,1 +1,19 @@
 
+#Contagem de pares de 1 a 50
+print("CONTAGEM EM PARES ")
+#
+print(50 * "=")
+#
+print("""
+Faça um programa que mostre na TypeAlias
+Todos os numeros pares que estão 
+entre i e 50 
+""")
+#
+print(50 * "=")
+#
+print("primeira solução gastando mais iterações ") 
+for numero in range(2,50,2):
+    if numero % 2 == 0:
+        print(numero, end='')
+print("FIM")
