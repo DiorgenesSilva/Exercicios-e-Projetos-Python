@@ -1,4 +1,3 @@
-
 #Contagem de pares de 1 a 50
 print("CONTAGEM EM PARES ")
 #
@@ -16,4 +15,11 @@ print("primeira solução gastando mais iterações ")
 for numero in range(2,50,2):
     if numero % 2 == 0:
         print(numero, end='')
-print("FIM")
+print("FIM")         
+
+#
+print("Segunda Solução gastando menos memoria") 
+for num in range(2,50,2):
+    print(num, end= '') 
+print("Acabou") 
+#
