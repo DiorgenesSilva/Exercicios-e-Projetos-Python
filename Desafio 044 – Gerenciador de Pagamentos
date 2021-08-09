@@ -30,5 +30,5 @@ elif opçao == 3:
 else:
     print("OPÇÃO INVALIDA ! LOJA VIRTUAL AGRADECE")        
 
- 
+  
  
