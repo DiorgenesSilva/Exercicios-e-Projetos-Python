@@ -1,1 +1,10 @@
-
+#Exercício 49 – Tabuada v.2.0
+print("TABUADA V.2 FOR ")
+#
+print("""Refaça o desafio 009*
+mostrando a tabuada de um numero
+que o usuario escolher. Só que
+agora utlizando um laço for""")
+#
+print(50 * "=")
+#
