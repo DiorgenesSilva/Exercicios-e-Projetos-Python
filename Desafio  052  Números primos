@@ -1,1 +1,8 @@
-
+#  Números primos#
+print(50 * '=')
+#
+print("""
+NUMEROS PRIMOS
+faça um programa que leia um numero inteiro
+E diga se ele é ou nao um numero primo""")
+#
