@@ -6,3 +6,20 @@ NUMEROS PRIMOS
 faça um programa que leia um numero inteiro
 E diga se ele é ou nao um numero primo""")
 #
+print(50 * '=')
+# Faça um programa que leia um numero inteiro 
+num = int(input("Didite um Numero :"))
+tot = 0
+for c in range(1, num + 1):
+    print('{}'.format(c), end='')
+# Diga se o numero digitado é ou nao um numero primo
+if c % num == 0:
+    print("O numero {} é um numero Primo".format(c))
+    print('\033[m', end='')
+    tot += 1
+else:
+    print("O numero {} não é um numero primo".format(c))
+    print('\031[m', end='')
+print("O numero {} foi divisivel {}".format(num, tot))
+#
+print(5
