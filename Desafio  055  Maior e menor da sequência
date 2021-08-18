@@ -1,1 +1,8 @@
-
+#Maior e menor da sequência
+print(50 * '=')
+#
+print("""
+Façaum programa que leia o peso
+de cinco pessoas. No final mostre
+qual foi o maior e menor peso  lidos 
+""")
