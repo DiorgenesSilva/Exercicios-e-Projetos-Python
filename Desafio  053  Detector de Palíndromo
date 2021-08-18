@@ -1,1 +1,16 @@
-
+#Detector de Palíndromo
+#
+print(50 * "=")
+#
+print("""
+DETETOR DE PALINDROMO
+Crie um programa que leia uma frase
+qualquer e diga se ela é um palindromo
+desconsiderando os espaços
+EXE :
+A Sacada dda Casa
+A Torre da derrota
+Apos a Sopa
+O Lobo ama o Bolo
+Anotaram a data da Maratona 
+""")
