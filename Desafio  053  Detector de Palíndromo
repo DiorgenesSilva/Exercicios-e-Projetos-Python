@@ -21,3 +21,12 @@ junto = ''.join(palavras) #Junta as palavras ''.join()
 inverso = ''
 print("Voce digitou a frase {}".format(junto))
 
+#Faça a leitura da str inversa e descubra se é um palindroomo 
+for letra in range(len(junto)-1,-1,-1):
+   inverso += junto[letra]
+if junto == inverso:
+   print("Temos um Palindromo")
+else:
+   print("A frase digitada nao é um palindromo")
+print("A frase {} e o resultado lido é {}".format(junto,inverso))
+
