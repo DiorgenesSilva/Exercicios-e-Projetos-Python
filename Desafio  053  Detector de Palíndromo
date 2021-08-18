@@ -14,3 +14,10 @@ Apos a Sopa
 O Lobo ama o Bolo
 Anotaram a data da Maratona 
 """)
+#Crie um programa qu leia uma frase qualquer
+frase = str(input("Digite uma Frase")).strip().upper() #Tira os espaços e joga p maiuscula
+palavras= frase.split()# split() divide as palavras 
+junto = ''.join(palavras) #Junta as palavras ''.join()
+inverso = ''
+print("Voce digitou a frase {}".format(junto))
+
