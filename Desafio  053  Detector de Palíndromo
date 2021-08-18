@@ -30,3 +30,30 @@ else:
    print("A frase digitada nao é um palindromo")
 print("A frase {} e o resultado lido é {}".format(junto,inverso))
 
+))
+        
+#
+print(50 *"=")
+#
+
+#RESOLVENDO SEM UTLIZAR O COMANDO for e sim fatiamento
+#Crie um programa qu leia uma frase qualquer
+frase = str(input("Digite uma Frase")).strip().upper() #Tira os espaços e joga p maiuscula
+palavras= frase.split()# split() divide as palavras 
+junto = ''.join(palavras) #Junta as palavras ''.join()
+inverso = junto[::-1]
+print("Voce digitou a frase {}".format(junto))
+
+#Faça a leitura da str inversa 
+if junto == inverso:
+   print("Temos um Palindromo")
+else:
+   print("A frase digitada nao é um palindromo")
+print("A frase {} e o resultado lido é {}".format(junto,inverso))
+        
+#
+print(50 *"=")
+#
+#RESOLVENDO SEM UTLIZAR O COMANDO for
+
+
