@@ -1,0 +1,33 @@
+#CALCULANDO FACTORIAL DE UM NUMERO
+print("""
+Desenvolva um programa em pseudo coidgo
+que Calcule o factorial de um numero
+Utilizando o Laço de repetição 
+""")
+#
+print(" Veja abaixo como fica mais simples utilizando Mudulos e Biblioetecas ")
+from math import factorial
+n = int(input("Digite o numero para calcular o seu Fsatorial "))
+f = factorial(n)
+print("O numero digitado foi {} e o seu fatorial é {} ".format(n,f))
+#
+print( 50 * '=')
+#
+print("""
+Resolvendo  Sem utilização de Modulos e Bibliotecas
+utilizando laço while :
+""")
+#
+num = int(input("Digite um numero para Calcular o seu fatorial"))
+cont = n
+fact = 1 # O fator nulo de multiplicação é 1 
+print("Calculando {} = ".format(cont),end = '')
+while cont > 0 :
+   print("{} ".format(cont),end='')
+   print(" X " if cont > 1 else '=',end = '')
+   fact = fact * cont 
+   cont -= 1 
+print(" O numero lido é {} e o seu fatorial  é {}".format( num,fact))
+#
+print(50 * '=')
+#
