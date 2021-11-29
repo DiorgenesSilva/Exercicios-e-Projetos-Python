@@ -1,0 +1,36 @@
+
+#CRIANDO UM MENU  DE OPÇÕES
+print("""
+CRIANDO UM MENU DE OPÇOES
+Crie m programa que leia dois valores
+E mostre um menu.Igual a o abaixo
+[1] Somar
+[2] Multiplicar
+[3] maior
+[4] Novos Numeros
+[5~sair do programa 
+Seu programa devera realizar a operação
+solicitada em cada caso 
+""")
+
+#
+print(50 * "=")
+#
+from time import sleep
+num1 = int(input(" Digite um numero"))
+num2 = int(input(" Digite um numero"))
+opção = 0
+while opção != 5:
+   print("""
+   [1] Somar
+   [2] Multiplicar
+   [3] maior
+   [4] Novos Numeros
+   [5] Sair do programa
+   """)
+   opção = int(input("Qual é a sua opção"))
+   if opção == 1 :
+      soma = num1 + num2
+      print("A soma entre {} e {} é igual a {}".format(num1,num2,soma))
+   elif opçao == 2 :
+      produto
