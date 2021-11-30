@@ -1,0 +1,30 @@
+#TRATANDO VARIOS VALORES
+print("""
+TRATANDO VARIOS VALORES V 1.0
+Crie u m Programa que leia varios numeros innteriros pelo teclado
+O programa so vai parar quando o usuario digitar o valor 999.
+Que é a condiçao de parada. no final ,mostre quantos numeros
+libs
+""")
+#
+print(50 * '=')
+#
+num = cont = soma = 0
+while num != 999:
+   num = int(input("Digite um Numero e  999 para parar  "))
+   soma = soma + num 
+   cont = cont + 1
+soma -= 999   
+print("Voce Digitou {} numeros e a soma entre eles é {} ".format(cont,soma))                                                                 
+print("Acabou")
+#
+print(50 * '=')
+#
+soma =cont =  0 
+while True :
+   num = int(input("Digite um numero e 999 para párar "))
+   if num == 999:
+      break
+   cont += 1 
+   soma += num 
+print(f"A soma dos {cont} foi {soma} ")    
