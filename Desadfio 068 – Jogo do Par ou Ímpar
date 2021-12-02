@@ -1,0 +1,43 @@
+# JOGO  DO PAR OU IMPAR
+#
+print("""
+JPGP DO PÁR OU IMPAR
+faça um programa que jogue Par ou Impar
+Com o computador o jogo so sera interrompido
+quando o jogador perder ,mostrando um total
+de vitorias consecutivas no final do jogo 
+""")
+#
+print(50 * "=")
+#
+vitoria = 0
+from random import randint
+
+while True:
+    jogador = int(input(" Escolha a sua jogada . PAR ou IMPAR"))
+    computador = radint(0, 11)
+    total = jogador + computador
+    tipo = ''
+    while tipo not in "PpiI":
+        tipo = str(imput(" par ou Impar ")).strip().upper()[0]
+    print(f" Voce Jogou {jogador} e o Computador jogou {computador} e o tipo  é {total}")
+    if tipo == "P":
+        if total % 2 == 0:
+            print("Voce Venceu")
+            vitoria += 1
+        else:
+            print("Voce perdeu")
+            break
+    elif tipo == "I":
+        if total % 2 == 1:
+            print("Voce Venceu")
+            vitoria += 1
+        else:
+            print("Voce Perdeu")
+            break
+    print("Vamos jogar Novamente ...")
+print("FIM,GAME OVER")
+
+#
+print(50 * "=")
+#
