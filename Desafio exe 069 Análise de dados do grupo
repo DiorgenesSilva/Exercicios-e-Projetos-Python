@@ -1,0 +1,42 @@
+print("""
+ANÁLISE DE DADOS DO GRUPO
+Crie um programa na tela que leia
+a idade e sexo de várias pessoas
+A cada pessoa cadastrada
+o programa deve perguntar ao usuario
+se le quer ou nao contiuar .
+No Final Mostre :
+[A] Quantas pessoas tem mais de 18 Anos
+[B] Quantos homens foram cadastrados
+[C] Quantas mulheres tem menos de 20 anos 
+""")
+#
+print(50 * "=")
+#
+tot18 =0
+totmasc = 0
+tot20 = 0 
+while True:
+   idade = int(input("Digite a sua idade"))
+   sexo = ' '
+   while  sexo not in "MF":
+      sexo = str(input("Digite o seu sexo { M/F]")).strip().upper()[0]
+   if idade >= 18:
+      tot18 += 1
+   if sexo == "M":
+      totmasc += 1
+   if sexo == "F" and idade < 20:
+      tot20 += 1
+         
+   resposta = ' '
+   while  resposta not in "SN":
+      resposta = str(input("Quer continuar?[SIM/NAO]")).strip().upper()[0]
+   if resposta == "N":
+         break    
+print("Total de pessoas com mais de 18 anos = {}".format(tot18))
+print("Total de homens dacastrados é igual a = {}".format(totmasc))
+print("Total de Mulheres com Menos de 20 an0s é = {}".format(tot20)) 
+#
+print(50 * '=')
+#
+                                                              
