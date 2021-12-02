@@ -1,0 +1,45 @@
+print("""
+ESTATISTICAS EM PRODUTO
+Crie um Programa que leia
+O nome e preço d evarios produtos
+O programa devera perguntar se
+o suario vai continuar ou nao.
+No inal Mostre :
+{A} Qual o Valor da Compra
+{B} Quantos produtos custam mais de R#1.000
+{C} Qual  o nome do produto mais barato
+""")
+#
+print(50 * "=")
+#
+total = 0
+maismil= 0
+menorpreço = 0
+contador = 0
+barato = ' '
+while True :
+   produto = str(input("Digite o nome do Produto")).strip().upper()[0]
+   preço = float(input("Digite o Valor R$"))
+   contador += 1
+   total += preço
+   if preço > 1000:
+      maismil += 1
+   if contador == 1 :
+      menorpreço = preço 
+   else:
+       if preço < menorpreço:
+          menorpreço = preço
+          barato = produto 
+   resp = ' '
+   while resp not in "SN":
+      resp = str(input("Quer continuar {S/N]")).strip().upper()[0]
+   if resp == 'N':
+         break
+print("o valor Total d aCompra foi de R${:.2f}".format(total))
+print("Exitem {} Produtos que custam mais de R$1000".format(maismil))
+print("O produro mais barato é {} e  custa R${:.2f}".format(barato,menorpreço))
+print("OBRIGADO POR COMPRAR CONSCO ")
+
+#
+print(50 * "=")
+#
