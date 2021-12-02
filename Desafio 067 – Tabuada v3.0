@@ -1,0 +1,21 @@
+print("""
+TABUADA v.30
+faça um program aque leia a tabuada
+de varios numeros,um de cada vez ,
+para cada valor digitado pelo usuario.
+O programa sera interrompido qdo o
+numero digitado for negativo  
+""")
+#
+print(50 * "=")
+#
+while True:
+   num = int(input("Digite um valor para Calular a Tabuada"))
+   if num < 0:
+      break
+   for mult in range(1,11):
+      print( "{} X {} = {}".format(num ,mult,num * mult))
+print("FIM")
+#
+print(50 * "=")
+#
