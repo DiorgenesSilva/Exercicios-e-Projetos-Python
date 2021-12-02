@@ -1,0 +1,19 @@
+print("""
+VARIOS NUMEROS COM flag 
+Crie um programa que leia vários numeros interiros pelo teclado .
+O programa so vai parar quando o usuario digtar 999,que é a
+condiçao de parada. No final mostre quantos numeros foram
+digitados e qual foi a soma entre eles 
+""")
+#
+print( 50 * "=")
+#
+num = cont =  0 
+while num != 999:
+   num = int(input("Digite um Numero"))
+   cont = cont + num
+cont += num    
+print(f" Foram ditados {cont}  Numeros ")
+#
+print(50 * "=")
+#
