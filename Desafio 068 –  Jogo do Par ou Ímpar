@@ -1,7 +1,7 @@
 # JOGO  DO PAR OU IMPAR
 #
 print("""
-JPGP DO PÁR OU IMPAR
+JPGP DO PÁR OU IMPAR 
 faça um programa que jogue Par ou Impar
 Com o computador o jogo so sera interrompido
 quando o jogador perder ,mostrando um total
